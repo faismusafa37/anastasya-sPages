@@ -9921,13 +9921,14 @@ h3 {
 
 .carousel-caption {
   position: absolute;
+  height: 50%;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
   background: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
   padding: 20px;
   border-radius: 10px;
-  z-index: 10; /* Pastikan teks berada di atas gambar */
+  z-index: -10; /* Pastikan teks berada di atas gambar */
 }
 
 .carousel-caption h2 {
