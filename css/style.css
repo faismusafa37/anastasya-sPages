@@ -94,6 +94,48 @@ abbr[data-original-title] {
   text-decoration-skip-ink: none;
 }
 
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.w-75 {
+  width: 75% !important;
+}
+
+.bg-primary {
+  background-color: #007bff !important; /* Ganti dengan warna latar yang diinginkan */
+}
+
+.img-fluid {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+/* Untuk memastikan ukuran gambar yang ditentukan berlaku */
+.img-custom {
+  width: 200px !important;
+  height: 210px !important;
+  object-fit: cover;
+}
+
+
 address {
   margin-bottom: 1rem;
   font-style: normal;
@@ -9875,52 +9917,5 @@ h3 {
   padding: 0;
   list-style-type: none;
 }
-
-
-/* CSS Styling */
-
-/* Profile Card Styling */
-.profile-card {
-  max-width: 400px;
-  margin: 0 auto;
-  border: none;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  overflow: hidden;
-  background-color: #fff;
-}
-
-.profile-pic-wrapper {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 5px;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
-  margin-top: -75px;
-  position: relative;
-  z-index: 1;
-}
-
-.profile-pic {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.card-body {
-  padding-top: 75px;
-}
-
-@media (max-width: 768px) {
-  .profile-card {
-      max-width: 300px;
-  }
-
-  .profile-pic-wrapper {
-      width
-
 
 /*# sourceMappingURL=style.css.map */
