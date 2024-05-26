@@ -108,7 +108,7 @@ abbr[data-original-title] {
 }
 
 .bg-primary {
-  background-color: #007bff !important; /* Ganti dengan warna latar yang diinginkan */
+  background-color: #2A4B7C !important; /* Ganti dengan warna latar yang diinginkan */
 }
 
 .img-fluid {
@@ -9918,46 +9918,128 @@ h3 {
   list-style-type: none;
 }
 
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 10; /* Pastikan teks berada di atas gambar */
+}
+
+.carousel-caption h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.carousel-caption .d-flex {
+  font-size: 0.875rem;
+}
+
+.carousel-caption a.btn {
+  margin-top: 15px;
+}
+
 /* Gaya CSS untuk membuat carousel responsif di perangkat seluler */
 @media (max-width: 576px) {
-  blog-carousel .carousel-inner .carousel-item img {
+  #blog-carousel .carousel-inner .carousel-item img {
     max-width: 100%;
     height: auto;
   }
-}
-@media (max-width: 400px) {
-  blog-carousel .carousel-inner .carousel-item img {
-    max-width: 100%;
-    height: auto;
+
+  .carousel-caption {
+    padding: 10px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption .d-flex {
+    font-size: 0.75rem;
+  }
+
+  .carousel-caption a.btn {
+    font-size: 0.875rem;
+    padding: 10px 20px;
   }
 }
 
 @media (min-width: 576px) {
-  blog-carousel .carousel-inner .carousel-item img {
+  #blog-carousel .carousel-inner .carousel-item img {
     max-width: 100%;
     height: auto;
   }
 }
 
 @media (min-width: 768px) {
-  blog-carousel .carousel-inner .carousel-item img {
+  #blog-carousel .carousel-inner .carousel-item img {
     max-width: 100%;
     height: auto;
   }
 }
 
 @media (min-width: 992px) {
-  blog-carousel .carousel-inner .carousel-item img {
+  #blog-carousel .carousel-inner .carousel-item img {
     max-width: 100%;
     height: auto;
   }
 }
 
 @media (min-width: 1200px) {
-  blog-carousel .carousel-inner .carousel-item img {
+  #blog-carousel .carousel-inner .carousel-item img {
     max-width: 100%;
     height: auto;
   }
 }
+
+/* Gaya tambahan untuk memastikan teks dalam carousel selalu terlihat jelas */
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 10; /* Pastikan teks berada di atas gambar */
+}
+
+.carousel-caption h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.carousel-caption .d-flex {
+  font-size: 0.875rem;
+}
+
+.carousel-caption a.btn {
+  margin-top: 15px;
+}
+
+/* Penyesuaian tambahan untuk perangkat dengan lebar layar 300-400px */
+@media (max-width: 400px) {
+  .carousel-caption {
+    padding: 10px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1rem;
+  }
+
+  .carousel-caption .d-flex {
+    font-size: 0.75rem;
+  }
+
+  .carousel-caption a.btn {
+    font-size: 0.75rem;
+    padding: 8px 16px;
+  }
+}
+
 
 /*# sourceMappingURL=style.css.map */
