@@ -9920,35 +9920,41 @@ h3 {
 
 /* Gaya CSS untuk membuat carousel responsif di perangkat seluler */
 @media (max-width: 576px) {
-  #blog-carousel .carousel-inner .carousel-item img {
+  blog-carousel .carousel-inner .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 400px) {
+  blog-carousel .carousel-inner .carousel-item img {
     max-width: 100%;
     height: auto;
   }
 }
 
 @media (min-width: 576px) {
-  #blog-carousel .carousel-inner .carousel-item img {
+  blog-carousel .carousel-inner .carousel-item img {
     max-width: 100%;
     height: auto;
   }
 }
 
 @media (min-width: 768px) {
-  #blog-carousel .carousel-inner .carousel-item img {
+  blog-carousel .carousel-inner .carousel-item img {
     max-width: 100%;
     height: auto;
   }
 }
 
 @media (min-width: 992px) {
-  #blog-carousel .carousel-inner .carousel-item img {
+  blog-carousel .carousel-inner .carousel-item img {
     max-width: 100%;
     height: auto;
   }
 }
 
 @media (min-width: 1200px) {
-  #blog-carousel .carousel-inner .carousel-item img {
+  blog-carousel .carousel-inner .carousel-item img {
     max-width: 100%;
     height: auto;
   }
