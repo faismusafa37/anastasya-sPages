@@ -9921,14 +9921,14 @@ h3 {
 
 .carousel-caption {
   position: absolute;
-  height: 50%;
+  height: 60%;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
   background: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
   padding: 20px;
   border-radius: 10px;
-  z-index: -10; /* Pastikan teks berada di atas gambar */
+  z-index: 1; /* Pastikan teks berada di atas gambar */
 }
 
 .carousel-caption h2 {
@@ -9942,6 +9942,11 @@ h3 {
 
 .carousel-caption a.btn {
   margin-top: 15px;
+}
+
+.carousel-caption h2, .carousel-caption .d-flex, .carousel-caption a.btn {
+  position: relative;
+  z-index: 2; /* Pastikan teks dan tombol berada di atas latar belakang hitam */
 }
 
 /* Gaya CSS untuk membuat carousel responsif di perangkat seluler */
